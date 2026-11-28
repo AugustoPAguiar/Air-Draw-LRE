@@ -6,6 +6,7 @@ using UnityEngine.XR;
 
 public class DrawLine : MonoBehaviour
 {
+    // classe da linha desenhada
     private class Stroke
     {
         public LineRenderer line;
@@ -48,6 +49,7 @@ public class DrawLine : MonoBehaviour
 
         CreateGuide();
 
+        // TODO: poder mudar o material
         if (baseMaterial != null)
         {
             currentMaterial = new Material(baseMaterial);
